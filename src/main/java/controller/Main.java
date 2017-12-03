@@ -31,6 +31,7 @@ public class Main {
 		m.addAttribute("a", a);
 		m.addAttribute("b", b);
 		
+		
 		return "index";
 	}
 }

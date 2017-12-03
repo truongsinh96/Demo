@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Hi everyone</title>
 </head>
 <body>
 <form method="post">
 	<input type="number" name="a" value="${a }"/> *
-	<input type="number" name="b" value="${b }"/>
+	<input type="number" name="b" value="${b }"/> 
 	<input type="submit" value="="/>
 	<span>${result}</span>
 </form>
