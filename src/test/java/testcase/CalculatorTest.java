@@ -19,6 +19,6 @@ public class CalculatorTest {
 	@Test
 	public void  multiplicationofOneShouldReturnItself(){
 		Calculator c = new Calculator();
-		assertEquals(20, c.multiply(10, 1), "10 x 1 must be 20");
+		assertEquals(10, c.multiply(10, 1), "10 x 1 must be 10");
 	}
 }
