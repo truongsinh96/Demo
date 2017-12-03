@@ -8,7 +8,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello world</h1>
+<form method="post">
+	<input type="number" name="a" value="${a }"/> *
+	<input type="number" name="b" value="${b }"/>
+	<input type="submit" value="="/>
+	<span>${result}</span>
+</form>
 
 </body>
 </html>
