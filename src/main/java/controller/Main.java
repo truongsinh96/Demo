@@ -21,19 +21,4 @@ public class Main {
 
 		return "index";
 	}
-
-	@RequestMapping(value = "/", method = RequestMethod.POST)
-	public String postIndex(@RequestParam Date date, Model m) {
-		Integer.parseInt("aaa");
-		m.addAttribute(date);
-		return "index";
-	}
-
-	@ExceptionHandler
-	public ModelAndView handleException(Exception e){
-		ModelAndView m = new ModelAndView();
-		m.setViewName("error");
-		m.addObject("message", e.getMessage());
-		return m;
-	}
 }
