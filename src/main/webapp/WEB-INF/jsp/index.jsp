@@ -8,10 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form method="post">
-<input name = "date" type="date"/>
-<input type="submit">
-</form>
-${date}
+<h1>Hello world</h1>
+
 </body>
 </html>
