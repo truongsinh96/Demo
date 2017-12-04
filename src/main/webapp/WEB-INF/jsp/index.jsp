@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hi everyone</title>
+<title>Calculator</title>
 </head>
 <body>
 <form method="post">
